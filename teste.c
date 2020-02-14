@@ -11,7 +11,10 @@ int main(){
     i = idade - 1;
 
     printf("Sua idade menos 1 é: %i\n\n", i);
-
+    
+    idade = idade + 1;
+    
+    printf("Sua idade original: %i\n", idade);
 
     return 0;
 }
